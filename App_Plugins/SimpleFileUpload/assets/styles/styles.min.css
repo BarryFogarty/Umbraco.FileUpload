@@ -1,0 +1,12 @@
+﻿ #SimpleFileUpload .form-upload {
+     margin-bottom: 40px;
+ }
+
+ #SimpleFileUpload .input-textbox-upload {
+     width:40%;
+     margin-bottom:0 !important;
+ }
+
+ #SimpleFileUpload .import-feedback-placeholder {
+     height: 100px;
+ }

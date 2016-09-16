@@ -1,0 +1,9 @@
+﻿{
+  javascript: [
+    "~/App_Plugins/SimpleFileUpload/assets/scripts/angular-file-upload.js",
+    "~/App_Plugins/SimpleFileUpload/assets/scripts/app.js"
+  ],
+	css: [
+		'~/App_Plugins/SimpleFileUpload/assets/styles/styles.min.css'
+	]
+}
