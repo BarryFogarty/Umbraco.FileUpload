@@ -1,5 +1,13 @@
 # Umbraco.SimpleFileUpload
-A simple Umbraco Angular app to handle file uploads.  Can be used as a dashboard control or as a starting point for a custom property editor.
+A simple Umbraco Angular app to handle file uploads.  Can be used as a dashboard control or as a starting point for a custom package / property editor.
 
-TODO:  Clone and drop in as a package?  Nuget.  This sone should be a super simple App_Plugin to be used as a dashboard control.  
-Extend on a separate repo as a property editor (so a file upload type can be added to a doctype)
+## Instructions
+- Clone the repo
+- Copy the App_Plugins/SimpleFileUpload folder into your Umbraco project
+- Copy FileUploadApiController.cs to your Umbraco project.  Amend the namespace and compile
+- Add a dashboard control pointed at ../App_Plugins/SimpleFileUpload/app.html
+
+Inspired by the discussion at https://our.umbraco.org/forum/developers/extending-umbraco/63947-Uploading-files-to-server-wAngularJS-API-service-and-Umbraco-API-controller
+
+Props:  Kyle Weems (csssquirel)
+https://gist.github.com/cssquirrel/3e5daad14bd2ff40edcc
